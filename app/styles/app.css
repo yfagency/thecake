@@ -314,6 +314,7 @@ aside li {
 
 .featured-collection-image {
   aspect-ratio: 1 / 1;
+  height: 50vh;
   @media (min-width: 45em) {
     aspect-ratio: 16 / 9;
   }
