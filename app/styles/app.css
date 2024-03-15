@@ -12,6 +12,14 @@ img {
   border-radius: 4px;
 }
 
+body {
+  font-family: Roboto;
+}
+
+a {
+  text-decoration: none !important;
+}
+
 /*
 * --------------------------------------------------
 * components/Aside
@@ -313,11 +321,7 @@ aside li {
 }
 
 .featured-collection-image {
-  aspect-ratio: 1 / 1;
-  height: 50vh;
-  @media (min-width: 45em) {
-    aspect-ratio: 16 / 9;
-  }
+  aspect-ratio: auto;
 }
 
 .featured-collection img {
