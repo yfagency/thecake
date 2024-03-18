@@ -1,4 +1,4 @@
-body {
+html {
   scroll-behavior: smooth;
 }
 
@@ -147,6 +147,26 @@ h1 {
 .home__sectionInnerBtn div:nth-child(2) span:first-child {
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
+}
+
+.home__sectionInnerBtn2 {
+  margin: 50px auto 0;
+}
+
+.home__sectionInnerBtn2 div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.home__sectionInnerBtn2 div span:first-child {
+  border: 2px solid #000;
+  padding: 12px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 100px;
 }
 
 /* backgrounds */
