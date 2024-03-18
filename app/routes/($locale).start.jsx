@@ -13,7 +13,8 @@ export async function loader() { return null }
 
 export default function Start() {
 
-  const sections = document.querySelectorAll(".home__section");
+  if (typeof window !== 'undefined') {
+    const sections = document.querySelectorAll(".home__section");
   const navLi = document.querySelectorAll(".home__sideNav ul li");
   window.onscroll = () => {
     var current = "";
@@ -32,6 +33,7 @@ export default function Start() {
       }
     });
   };
+  }
 
   /** @type {LoaderReturnData} */
   return (
