@@ -1,3 +1,4 @@
+import {NavLink} from '@remix-run/react'
 import styles from '../styles/start.css'
 import logo from '../assets/cts_logo.svg'
 import bg1 from '../assets/section-1-bg.jpg'
@@ -52,11 +53,11 @@ export default function Start() {
       </div>
       <div className="home__sideNav">
         <ul>
-          <li className="cake active"><a href="#cake">Cake</a></li>
-          <li className="make"><a href="#make">Make</a></li>
-          <li>Shop</li>
-          <li>FAQ</li>
-          <li>Contact</li>
+          <li className="cake active"><NavLink to="#cake">Cake</NavLink></li>
+          <li className="make"><NavLink to="#make">Make</NavLink></li>
+          <li className="shop"><NavLink to="#shop">Shop</NavLink></li>
+          <li className="faq"><NavLink to="#faq">FAQ</NavLink></li>
+          <li className="contact"><NavLink to="#contact">Contact</NavLink></li>
         </ul>
       </div>
       <div id="cake" className="home__section">
@@ -81,17 +82,58 @@ export default function Start() {
       <div id="make" className="home__section">
         <div className="home__sectionInner">
           <div>
-            <h1>the Cake teamspirit</h1>
-            <p>Team jerseys are more than attire—they're your team's rallying cry. Celebrate unity, embody spirit, and amplify joy with every pedal. This is why the Cake exist. Belong & have fun. </p>
+            <h1>Make your team</h1>
+            <p>Manger, Club owner, Team player ~ design your new team look starting by Jersey and Bib. The accessories follow. What is your team all about.</p>
           </div>
-          <div className="home__sectionInnerBtn">
+          <div className="home__sectionInnerBtn2">
             <div>
-              <span>Cake make</span>
-              <span>Design & Produce<br />Your Team</span>
+              <span>Tell us all about your team</span>
+              <span>Step by step form to decipher your ne look.</span>
             </div>
+          </div>
+        </div>
+        <img className="home__bg2" src={bg2} alt="background" />
+      </div>
+      <div id="shop" className="home__section">
+        <div className="home__sectionInner">
+          <div>
+            <h1>Make your team</h1>
+            <p>Manger, Club owner, Team player ~ design your new team look starting by Jersey and Bib. The accessories follow. What is your team all about.</p>
+          </div>
+          <div className="home__sectionInnerBtn2">
             <div>
-              <span>Cake shop</span>
-              <span>Buy & Join<br />Our Team</span>
+              <span>Tell us all about your team</span>
+              <span>Step by step form to decipher your ne look.</span>
+            </div>
+          </div>
+        </div>
+        <img className="home__bg2" src={bg2} alt="background" />
+      </div>
+      <div id="faq" className="home__section">
+        <div className="home__sectionInner">
+          <div>
+            <h1>Make your team</h1>
+            <p>Manger, Club owner, Team player ~ design your new team look starting by Jersey and Bib. The accessories follow. What is your team all about.</p>
+          </div>
+          <div className="home__sectionInnerBtn2">
+            <div>
+              <span>Tell us all about your team</span>
+              <span>Step by step form to decipher your ne look.</span>
+            </div>
+          </div>
+        </div>
+        <img className="home__bg2" src={bg2} alt="background" />
+      </div>
+      <div id="contact" className="home__section">
+        <div className="home__sectionInner">
+          <div>
+            <h1>Make your team</h1>
+            <p>Manger, Club owner, Team player ~ design your new team look starting by Jersey and Bib. The accessories follow. What is your team all about.</p>
+          </div>
+          <div className="home__sectionInnerBtn2">
+            <div>
+              <span>Tell us all about your team</span>
+              <span>Step by step form to decipher your ne look.</span>
             </div>
           </div>
         </div>
