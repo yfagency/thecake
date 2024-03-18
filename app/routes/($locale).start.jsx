@@ -3,6 +3,9 @@ import styles from '../styles/start.css'
 import logo from '../assets/cts_logo.svg'
 import bg1 from '../assets/section-1-bg.jpg'
 import bg2 from '../assets/section-2-bg.jpg'
+import bg3 from '../assets/section-3-bg.jpg'
+import bg4 from '../assets/section-4-bg.jpg'
+import bg5 from '../assets/section-5-bg.jpg'
 
 export function links() { return [{ rel: 'stylesheet', href: styles }] }
 
@@ -97,47 +100,47 @@ export default function Start() {
       <div id="shop" className="home__section">
         <div className="home__sectionInner">
           <div>
-            <h1>Make your team</h1>
-            <p>Manger, Club owner, Team player ~ design your new team look starting by Jersey and Bib. The accessories follow. What is your team all about.</p>
+            <h1>Shop Our Teams</h1>
+            <p>We love Jerseys, what they represents. Effort, belonging, team spirit. We designed our own jerseys as the representation of the teams. Check the Cake teams, and buy into the team. Ride the flag with Cake.</p>
           </div>
           <div className="home__sectionInnerBtn2">
             <div>
-              <span>Tell us all about your team</span>
-              <span>Step by step form to decipher your ne look.</span>
+              <span>The Cake Jersey Shop</span>
+              <span>Ready Made Cake Team Jerseys.</span>
             </div>
           </div>
         </div>
-        <img className="home__bg2" src={bg2} alt="background" />
+        <img className="home__bg2" src={bg3} alt="background" />
       </div>
       <div id="faq" className="home__section">
         <div className="home__sectionInner">
           <div>
-            <h1>Make your team</h1>
-            <p>Manger, Club owner, Team player ~ design your new team look starting by Jersey and Bib. The accessories follow. What is your team all about.</p>
+            <h1>What is it All about</h1>
+            <p>Many questions, want to nwo about process, rules, what not? Want to know more, check the FAQ and discover.</p>
           </div>
           <div className="home__sectionInnerBtn2">
             <div>
-              <span>Tell us all about your team</span>
-              <span>Step by step form to decipher your ne look.</span>
+              <span>Check the FAQ page</span>
+              <span>Teh collection of answers.</span>
             </div>
           </div>
         </div>
-        <img className="home__bg2" src={bg2} alt="background" />
+        <img className="home__bg2" src={bg4} alt="background" />
       </div>
       <div id="contact" className="home__section">
         <div className="home__sectionInner">
           <div>
-            <h1>Make your team</h1>
-            <p>Manger, Club owner, Team player ~ design your new team look starting by Jersey and Bib. The accessories follow. What is your team all about.</p>
+            <h1>Reach out to cake</h1>
+            <p>Want to reach out, check on something, ask question? We have your back.</p>
           </div>
           <div className="home__sectionInnerBtn2">
             <div>
-              <span>Tell us all about your team</span>
-              <span>Step by step form to decipher your ne look.</span>
+              <span>Drop Us a Message</span>
+              <span>We will come back to you.</span>
             </div>
           </div>
         </div>
-        <img className="home__bg2" src={bg2} alt="background" />
+        <img className="home__bg2" src={bg5} alt="background" />
       </div>
     </>
   );
