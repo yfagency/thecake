@@ -6,6 +6,7 @@ import bg2 from '../assets/section-2-bg.jpg'
 import bg3 from '../assets/section-3-bg.jpg'
 import bg4 from '../assets/section-4-bg.jpg'
 import bg5 from '../assets/section-5-bg.jpg'
+import Button from '../components/Button'
 
 export function links() { return [{ rel: 'stylesheet', href: styles }] }
 
@@ -90,7 +91,7 @@ export default function Start() {
           </div>
           <div className="home__sectionInnerBtn2">
             <div>
-              <span>Tell us all about your team</span>
+              <Button>Tell us all about your team</Button>
               <span>Step by step form to decipher your ne look.</span>
             </div>
           </div>
@@ -105,7 +106,7 @@ export default function Start() {
           </div>
           <div className="home__sectionInnerBtn2">
             <div>
-              <span>The Cake Jersey Shop</span>
+              <Button>The Cake Jersey Shop</Button>
               <span>Ready Made Cake Team Jerseys.</span>
             </div>
           </div>
@@ -120,7 +121,7 @@ export default function Start() {
           </div>
           <div className="home__sectionInnerBtn2">
             <div>
-              <span>Check the FAQ page</span>
+              <Button>Check the FAQ page</Button>
               <span>Teh collection of answers.</span>
             </div>
           </div>
@@ -135,7 +136,7 @@ export default function Start() {
           </div>
           <div className="home__sectionInnerBtn2">
             <div>
-              <span>Drop Us a Message</span>
+              <Button>Drop us a message</Button>
               <span>We will come back to you.</span>
             </div>
           </div>

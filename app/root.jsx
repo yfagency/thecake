@@ -16,6 +16,7 @@ import favicon from './assets/favicon.svg';
 import resetStyles from './styles/reset.css';
 import appStyles from './styles/app.css';
 import { Layout } from '~/components/Layout';
+import { cssBundleHref } from "@remix-run/css-bundle";
 
 /**
  * This is important to avoid re-fetching root queries on sub-navigations
@@ -39,6 +40,7 @@ export function links() {
   return [
     { rel: 'stylesheet', href: resetStyles },
     { rel: 'stylesheet', href: appStyles },
+    { rel: "stylesheet", href: cssBundleHref },
     {
       rel: 'preconnect',
       href: 'https://cdn.shopify.com',

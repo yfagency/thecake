@@ -155,18 +155,10 @@ h1 {
 
 .home__sectionInnerBtn2 div {
   width: 100%;
-  display: flex;
+  display: grid;
   flex-direction: column;
   text-align: center;
-}
-
-.home__sectionInnerBtn2 div span:first-child {
-  border: 2px solid #000;
-  padding: 12px;
-  font-size: 24px;
-  font-weight: bold;
-  text-transform: uppercase;
-  border-radius: 100px;
+  justify-items: center;
 }
 
 /* backgrounds */
