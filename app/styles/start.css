@@ -37,14 +37,6 @@ h1 {
   width: 72px;
 }
 
-.home__section {
-  min-height: 100vh;
-  display: flex;
-  padding: 0 20px;
-  position: relative;
-  justify-content: center;
-}
-
 .home__toggle {
   display: inline-flex;
   border: thin solid #000;
@@ -53,6 +45,16 @@ h1 {
   align-items: center;
   gap: 16px;
   margin: 0 auto;
+}
+
+/* ##### HERO ##### */
+
+.home__heroSection {
+  min-height: 100vh;
+  display: flex;
+  padding: 0 20px;
+  position: relative;
+  justify-content: center;
 }
 
 .home__toggle div:first-child {
@@ -135,6 +137,12 @@ h1 {
   text-transform: uppercase;
 }
 
+.home__sectionInnerBtn div span:first-child:hover {
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
 .home__sectionInnerBtn div span:nth-child(2) {
   font-size: 14px;
 }
@@ -186,7 +194,11 @@ h1 {
 
 /* other stuff */
 .home__sideNav ul li.active {
-  background-color: #3b49df;
-  border-radius:30px;
+  background-color: #000;
+  border-radius: 30px;
   transition: 0.3s;
-  }
+}
+
+.home__sideNav ul li.active a {
+  color: #fff;
+}
