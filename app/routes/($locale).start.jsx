@@ -19,7 +19,7 @@ export async function loader() { return null }
 export default function Start() {
 
   if (typeof window !== 'undefined') {
-    const sections = document.querySelectorAll(".home__section");
+    const sections = document.querySelectorAll(".home__heroSection");
   const navLi = document.querySelectorAll(".home__sideNav ul li");
   window.onscroll = () => {
     var current = "";
@@ -64,7 +64,7 @@ export default function Start() {
           <li className="contact"><NavLink to="#contact">Contact</NavLink></li>
         </ul>
       </div>
-      <div id="cake" className="home__section">
+      <div id="cake" className="home__heroSection">
         <div className="home__sectionInner">
           <div>
             <h1>the Cake teamspirit</h1>
@@ -83,7 +83,7 @@ export default function Start() {
         </div>
         <img className="home__bg1" src={bg1} alt="background" />
       </div>
-      <div id="make" className="home__section">
+      <div id="make" className="home__heroSection">
         <div className="home__sectionInner">
           <div>
             <h1>Make your team</h1>
@@ -98,7 +98,7 @@ export default function Start() {
         </div>
         <img className="home__bg2" src={bg2} alt="background" />
       </div>
-      <div id="shop" className="home__section">
+      <div id="shop" className="home__heroSection">
         <div className="home__sectionInner">
           <div>
             <h1>Shop Our Teams</h1>
@@ -113,7 +113,7 @@ export default function Start() {
         </div>
         <img className="home__bg2" src={bg3} alt="background" />
       </div>
-      <div id="faq" className="home__section">
+      <div id="faq" className="home__heroSection">
         <div className="home__sectionInner">
           <div>
             <h1>What is it All about</h1>
@@ -128,7 +128,7 @@ export default function Start() {
         </div>
         <img className="home__bg2" src={bg4} alt="background" />
       </div>
-      <div id="contact" className="home__section">
+      <div id="contact" className="home__heroSection">
         <div className="home__sectionInner">
           <div>
             <h1>Reach out to cake</h1>
