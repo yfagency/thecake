@@ -46,8 +46,8 @@ export default function Start() {
       <div className="home__nav">
         <img src={logo} />
         <div className="home__toggle">
-          <div>Make</div>
-          <div>Shop</div>
+          <div><NavLink to="#make">Make</NavLink></div>
+          <div><NavLink to="/">Shop</NavLink></div>
         </div>
         <div className="home__navButtons">
           <div>Sign in</div>
