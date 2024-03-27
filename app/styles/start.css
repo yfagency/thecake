@@ -31,6 +31,7 @@ h1 {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
+  z-index: 9999;
 }
 
 .home__nav img {
